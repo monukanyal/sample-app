@@ -6,7 +6,7 @@ const countries=require('../Datafiles/countries.json');
 
 
 router.get('/', (req, res)=>{
-      res.render('index',{ page_title:'Home',continents:continents});
+      res.render('index',{ page_title:'Home', sub_title:'The World',continents:continents});
       //res.send({ page_title:'Home',continents:continents});
 });
 
