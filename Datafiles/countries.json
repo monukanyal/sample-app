@@ -1,0 +1,55 @@
+[
+{
+ "id":1,
+ "name":"China",
+ "map":"https://en.wikipedia.org/wiki/China#/media/File:People%27s_Republic_of_China_(orthographic_projection).svg",
+ "target":"/asia/china",
+ "flag":"https://en.wikipedia.org/wiki/China#/media/File:Flag_of_the_People%27s_Republic_of_China.svg",
+ "description":"China, officially the People's Republic of China (PRC), is a unitary sovereign state in East Asia and the world's most populous country, with a population of around 1.404 billion.[13] Covering approximately 9,600,000 square kilometers (3,700,000 sq mi), it is the third- or fourth-largest country by total area."
+},
+
+{
+ "id":2,
+ "name":"India",
+ "map":"https://en.wikipedia.org/wiki/India#/media/File:India_(orthographic_projection).svg",
+ "target":"/asia/india",
+ "flag":"https://en.wikipedia.org/wiki/India#/media/File:Flag_of_India.svg",
+ "description":"India, officially the Republic of India (Bhārat Gaṇarājya),[e] is a country in South Asia. It is the seventh-largest country by area, the second-most populous country (with over 1.2 billion people), and the most populous democracy in the world. It is bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast."
+},
+
+{
+ "id":3,
+ "name":"Japan",
+ "map":"https://en.wikipedia.org/wiki/Japan#/media/File:Japan_(orthographic_projection).svg",
+ "target":"/asia/japan",
+ "flag":"https://en.wikipedia.org/wiki/Japan#/media/File:Flag_of_Japan.svg",
+ "description":"Japan is a sovereign island nation in East Asia. Located in the Pacific Ocean, it lies off the eastern coast of the Asian mainland and stretches from the Sea of Okhotsk in the north to the East China Sea and China in the southwest."
+},
+
+{
+ "id":4,
+ "name":"Afghanistan",
+ "map":"https://en.wikipedia.org/wiki/Afghanistan#/media/File:Afghanistan_(orthographic_projection).svg",
+ "target":"/asia/afghanistan",
+ "flag":"https://en.wikipedia.org/wiki/Afghanistan#/media/File:Flag_of_Afghanistan.svg",
+ "description":"Afghanistan is bordered by Pakistan in the south and east; Iran in the west; Turkmenistan, Uzbekistan, and Tajikistan in the north; and in the far northeast, China and the Pakistani-administered Gilgit-Baltistan which is claimed by India. Its territory covers 652,000 square kilometers (252,000 sq mi)."
+},
+
+{
+ "id":5,
+ "name":"Italy",
+ "map":"https://en.wikipedia.org/wiki/Italy#/media/File:EU-Italy.svg",
+ "target":"/europe/italy",
+ "flag":"https://en.wikipedia.org/wiki/Italy#/media/File:Flag_of_Italy.svg",
+ "description":"Italy is a unitary parliamentary republic in Europe. And It is Located in the heart of the Mediterranean Sea, Italy shares open land borders with France, Switzerland, Austria, Slovenia, San Marino and Vatican City. Italy covers an area of 301,338 km2 (116,347 sq mi)."
+},
+{
+ "id":6,
+ "name":"Spain",
+ "map":"https://en.wikipedia.org/wiki/Spain#/media/File:EU-Spain.svg",
+ "target":"/europe/spain",
+ "flag":"https://en.wikipedia.org/wiki/Spain#/media/File:Flag_of_Spain.svg",
+ "description":"Spain is a country mostly located on the Iberian Peninsula in Europe, with there also being two large archipelagoes, the Balearic Islands in the Mediterranean Sea and the Canary Islands off the African Atlantic coast, two cities, Ceuta and Melilla, on the African mainland and several small islands in the Alboran Sea near the African coast.."
+}
+
+]
