@@ -18,7 +18,7 @@ module.exports =
 				  var country=req.params.country;
 				  	var configs=[];
 				     async.forEachOf(countries, function (value, key, callback) {
-				      	console.log((value.id).indexOf(country));
+				      	//console.log((value.id).indexOf(country));
 				      if(parseInt((value.id).indexOf(country))!= -1)
 				      {
 				            configs[key]=value;
@@ -42,7 +42,7 @@ module.exports =
 				 var continent=req.params.continent;
 					var configs=[];
 				     async.forEachOf(countries, function (value, key, callback) {
-							console.log((value.target).indexOf(continent));
+							//console.log((value.target).indexOf(continent));
 							if(parseInt((value.target).indexOf(continent))!= -1)
 							{
 							configs[key]=value;

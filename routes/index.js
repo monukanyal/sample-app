@@ -7,11 +7,8 @@ const countries=require('../Datafiles/countries1.json');
 
 
 router.get('/', (req, res)=>{
-      var ncr=3;
-      var cal=(continents.length/ncr);
-      console.log(Math.ceil(cal));
-      var tr=Math.ceil(cal);
-      res.render('index',{ page_title:'Home', sub_title:'THE WORLD',continents:continents,totalrow:tr});
+
+      res.render('index',{ page_title:'Home', sub_title:'THE WORLD',continents:continents});
 });
 
 router.get('/:continent',function(req,res){
@@ -36,8 +33,7 @@ sourceroutes.orgname='/'+req.params.continent;
 });
 
 router.get('/:continent/:country',function(req,res){
-   //res.send(req.params.continent);
-   //res.send(req.params.country);
+ 
    var configs=[];
    var country=req.params.country;
     var sourceroutes={};
