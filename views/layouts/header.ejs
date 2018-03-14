@@ -45,7 +45,7 @@ height: 100%;
 		flex-wrap: wrap;
 	}
 	.custom_padding{
-		padding-bottom: 10%;
+		padding-bottom: 15%;
 
 	}
 	.custom_padding p{
@@ -63,17 +63,28 @@ height: 100%;
 		background: #0077bf;
 		color: #fff;
 	}
+	@media only screen and (max-width: 767px) {
+		.custom_padding{
+		padding-bottom: 55%;
+
+	}
+	.custom_width{
+		width: 100%;
+	}
+	}
+	@media only screen and (max-width: 420px) {
+		.custom_padding{
+		padding-bottom: 65%;
+
+	}
+	}
 </style>
 </head>
 <body id="body">
 <header>			
 <div class="navbar-inverse navbar-static-top custom_bg">
 	<div class="container-fluid">
-		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navHeaderCollapse">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
+		
 		<a href="#" class="navbar-brand colr_brand"></a>
 		<div class="custom_align">
 				<p><%- sub_title %></p>
