@@ -1,0 +1,40 @@
+<%- include('layouts/header.ejs') %>
+<div class="container custom_padding">
+	 
+  <div class="row">
+<% if(country.length==1){ %>
+	<div class="col-md-12">
+	<p>Path:&nbsp;<a href="/">Home</a><a href="<%= sourceroutes['prevurl'] %>"><%= sourceroutes['prevurl'] %></a><a href="<%= sourceroutes['orgurl'] %>"><%= sourceroutes['orgname'] %></a>&nbsp;
+		
+
+	</p>
+   	<div class="col-md-6">
+     <div class="panel panel-default">
+	<div class="panel-body">
+
+	<img src="../static/maps/<%= country[0]['map'] %>" width="100%" class="img-responsive"/> 
+		</div>
+		  <a href="<%= country[0]['target'] %>"><div class="panel-footer custom_map_footer"><center><%= country[0]['name'] %></center></div></a>
+		</div>
+	</div>
+	<div class="col-md-6">
+     <div class="panel panel-default">
+	<div class="panel-body">
+	<img src="/static/flags/<%= country[0]['flag'] %>" height="100%" width="100%" class="img-responsive"/> 
+		</div>
+		<div class="panel-footer"><p><%= country[0]['description'] %></p></div>
+		</div>
+	</div>
+</div>
+<% } else{ %>  
+<div class="col-md-12">
+	<div class="alert alert-info">
+<strong>Info!</strong> Country detail not found!!
+</div>
+</div>
+<% } %>  
+</div>
+
+</div>
+
+<%- include('layouts/footer.ejs') %>

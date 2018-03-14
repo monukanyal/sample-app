@@ -1,0 +1,30 @@
+<%- include('layouts/header.ejs') %>
+<div class="container custom_padding">
+	 
+  <div class="row">
+<p>Path:&nbsp;<a href="/">Home</a><a href="<%= sourceroutes['orgurl'] %>"><%= sourceroutes['orgname'] %></a>&nbsp;
+
+<% if(countries.length>0){ %>
+
+<% for(var i=0; i<countries.length; i++) { %>
+   	<div class="col-md-4 col-sm-4">
+     <div class="panel panel-primary">
+	<div class="panel-body">
+		
+	<img src="static/maps/<%= countries[i]['map'] %>" width="100%" class="img-responsive"/> 
+		</div>
+		  <a href="<%= countries[i]['target'] %>"><div class="panel-footer custom_map_footer"><center><%= countries[i]['name'] %></center></div></a>
+		</div>
+	</div>
+<% } %>
+ <% } else{ %>  
+  <div class="col-md-12">
+  	<div class="alert alert-info">
+  <strong>Info!</strong> No Country list available.
+</div>
+  </div>
+<% } %>
+    
+</div>
+</div>
+<%- include('layouts/footer.ejs') %>

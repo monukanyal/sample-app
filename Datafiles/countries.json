@@ -1,6 +1,6 @@
 [
 {
- "id":1,
+ "id":"china",
  "name":"China",
  "map":"https://en.wikipedia.org/wiki/China#/media/File:People%27s_Republic_of_China_(orthographic_projection).svg",
  "target":"/asia/china",
@@ -9,16 +9,16 @@
 },
 
 {
- "id":2,
+ "id":"india",
  "name":"India",
  "map":"https://en.wikipedia.org/wiki/India#/media/File:India_(orthographic_projection).svg",
  "target":"/asia/india",
  "flag":"https://en.wikipedia.org/wiki/India#/media/File:Flag_of_India.svg",
- "description":"India, officially the Republic of India (Bhārat Gaṇarājya),[e] is a country in South Asia. It is the seventh-largest country by area, the second-most populous country (with over 1.2 billion people), and the most populous democracy in the world. It is bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast."
+ "description":"India, officially the Republic of India (Bharat Gaṇarajya),is a country in South Asia. It is the seventh-largest country by area, the second-most populous country (with over 1.2 billion people), and the most populous democracy in the world. It is bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast."
 },
 
 {
- "id":3,
+ "id":"japan",
  "name":"Japan",
  "map":"https://en.wikipedia.org/wiki/Japan#/media/File:Japan_(orthographic_projection).svg",
  "target":"/asia/japan",
@@ -27,7 +27,7 @@
 },
 
 {
- "id":4,
+ "id":"afghanistan",
  "name":"Afghanistan",
  "map":"https://en.wikipedia.org/wiki/Afghanistan#/media/File:Afghanistan_(orthographic_projection).svg",
  "target":"/asia/afghanistan",
@@ -36,7 +36,7 @@
 },
 
 {
- "id":5,
+ "id":"italy",
  "name":"Italy",
  "map":"https://en.wikipedia.org/wiki/Italy#/media/File:EU-Italy.svg",
  "target":"/europe/italy",
@@ -44,7 +44,7 @@
  "description":"Italy is a unitary parliamentary republic in Europe. And It is Located in the heart of the Mediterranean Sea, Italy shares open land borders with France, Switzerland, Austria, Slovenia, San Marino and Vatican City. Italy covers an area of 301,338 km2 (116,347 sq mi)."
 },
 {
- "id":6,
+ "id":"spain",
  "name":"Spain",
  "map":"https://en.wikipedia.org/wiki/Spain#/media/File:EU-Spain.svg",
  "target":"/europe/spain",

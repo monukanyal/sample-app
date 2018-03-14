@@ -1,16 +1,21 @@
+/*
+  #####  ### ##### #### ####   ###   ###  ###  ##### #####
+  #     #    #     #    #   # #   # #    #   # #       #
+  ###    ##  ###   ###  ####  #####  ##  #   # ###     #
+  #        # #     #    #  #  #   #    # #   # #       #
+  ##### ###  #     #### #   # #   # ###   ###  #       #
+*/
+
+const path = require('path');
+var morgan = require('morgan'); //http request logger
 const express = require('express');
 var app = express();
-const path = require('path');
-//var morgan = require('morgan'); //http request logger
-
 var port =process.env.PORT || 8080;
-var http=require('http').Server(app);
-http.listen(port);
+app.listen(port);
 
 const favicon = require('serve-favicon');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const session = require('express-session');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -30,13 +35,7 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 
 /*------routes Define---------------------*/
 const routes = require('./routes/index.js');
-//const Users = require('./routes/user.js');
-//const Book = require('./routes/Book.js');
-
 app.use('/', routes);
-//app.use('/dashboard', Users);
-//app.use('/books', Book);
-
 /*---------routes end---------------------*/
-
+console.log("Express server listening on port:" + port);
 
